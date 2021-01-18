@@ -1,5 +1,17 @@
 <h1>Whisper詳細</h1>
 <%= link_to '一覧', tasks_path, class: 'nav-link' %>
-<p>Whisper内容: <%= @task.content %></p>
-<p>登録日時: <%= @task.created_at %></p>
-<p>更新日時: <%= @task.updated_at %></p>
+<table>
+  <tr>
+    <th>Whisper内容:</th>
+    <td><%= @task.content %></td>
+  </tr>
+  <tr>
+    <th>登録日時:</th>
+    <td><%= @task.created_at %></td>
+  </tr>
+  <tr>
+    <th>更新日時:</th>
+    <td><%= @task.updated_at %></td>
+  </tr>
+</table>
+<%= link_to '編集', edit_task_path, class: 'btn btn-primary' %>
