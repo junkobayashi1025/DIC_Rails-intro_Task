@@ -1,2 +1,16 @@
-<h1>Tasks#index</h1>
+<h1>ブログ一覧</h1>
+<p><%= notice %></p>
 <%= link_to '新規登録', new_task_path, class: 'btn btn-primary' %>
+
+<table>
+  <tr>
+    <th>Whisper内容</th>
+    <th>登録日時</th>
+  </tr>
+<% @tasks.each do |task| %>
+  <tr>
+    <td><%= task.content %></td>
+    <td><%= task.created_at %></td>
+  </tr>
+<% end %>
+</table>
