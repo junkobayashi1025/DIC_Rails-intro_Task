@@ -1,18 +1,26 @@
-<h1>Whisper詳細</h1>
-<%= link_to '一覧', tasks_path, class: 'nav-link' %>
+<header>
+  <div class="header-logo">
+    Whisper~Details~
+  </div>
+  <ul class="header-menus">
+    <li><a href="/">Top</a></li>
+    <li><a href="/tasks/new">Whisper</a></li>
+    <li><a href="/tasks">Index</a></li>
+  </ul>
+</header>
 <table>
   <tr>
-    <th>Whisper内容:</th>
+    <th>Content:</th>
     <td><%= @task.content %></td>
   </tr>
   <tr>
-    <th>登録日時:</th>
+    <th>Date:</th>
     <td><%= @task.created_at %></td>
   </tr>
   <tr>
-    <th>更新日時:</th>
+    <th>Update:</th>
     <td><%= @task.updated_at %></td>
   </tr>
 </table>
-<%= link_to '編集', edit_task_path, class: 'btn btn-primary', data: { confirm: '本当に編集していいですか？' } %>
-<%= link_to '削除', task_path, class: 'btn btn-primary', method: :delete ,data: { confirm: '本当に削除していいですか？' } %>
+<%= link_to 'Edit', edit_task_path, class: 'btn btn-primary', data: { confirm: '本当に編集していいですか？' } %>
+<%= link_to 'Delete', task_path, class: 'btn btn-primary', method: :delete ,data: { confirm: '本当に削除していいですか？' } %>

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- root to: 'tasks#index'
+ root to: 'tasks#top'
  resources :tasks do
      collection do
        post :confirm

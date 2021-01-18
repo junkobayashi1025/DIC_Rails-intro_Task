@@ -1,4 +1,6 @@
 class TasksController < ApplicationController
+  def top
+  end
   def index
     @tasks = Task.all
   end
@@ -17,11 +19,6 @@ class TasksController < ApplicationController
       end
     end
   end
-  # def create
-  #   task = Task.new(task_params)
-  #   task.save
-  #   redirect_to tasks_url, notice: "新しいWhisperを登録しました"
-  # end
   def show
     @task = Task.find(params[:id])
   end
