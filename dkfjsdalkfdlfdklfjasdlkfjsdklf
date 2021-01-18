@@ -1,0 +1,35 @@
+[33mcommit 944ae819c5dcfabbb2a11eecdd5fd96e3a290162[m
+Author: jun kobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 05:05:09 2021 +0000
+
+    編集機能の実装
+
+[33mcommit b13604e3f2bef7a8fdce6954b91442329b5bee1a[m
+Author: jun kobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 03:46:46 2021 +0000
+
+    詳細表示機能の実装
+
+[33mcommit 0c1f1252857ad5d3e4cad6ab73d7780e1035e286[m
+Author: jun kobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 03:14:41 2021 +0000
+
+    一覧表示機能の実装
+
+[33mcommit c24299af07ca17e9c4fb4906255f9c2fb80ca5ed[m
+Author: jun kobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 02:53:45 2021 +0000
+
+    新規登録画面を実装
+
+[33mcommit 56b001afdd6fa9049af887d5ede3cda9989ba8f9[m
+Author: jun kobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 02:02:00 2021 +0000
+
+    model、controller作成
+
+[33mcommit 41d1681127c20e24e4606275103ade798e72e706[m
+Author: junkobayashi <junkobayashi1025@gmail.com>
+Date:   Mon Jan 18 09:20:13 2021 +0900
+
+    アプリケーション作成準備

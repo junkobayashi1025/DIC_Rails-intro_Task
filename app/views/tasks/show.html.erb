@@ -14,4 +14,5 @@
     <td><%= @task.updated_at %></td>
   </tr>
 </table>
-<%= link_to '編集', edit_task_path, class: 'btn btn-primary' %>
+<%= link_to '編集', edit_task_path, class: 'btn btn-primary', data: { confirm: '本当に編集していいですか？' } %>
+<%= link_to '削除', task_path, class: 'btn btn-primary', method: :delete ,data: { confirm: '本当に削除していいですか？' } %>
