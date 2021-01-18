@@ -10,6 +10,9 @@ class TasksController < ApplicationController
     task.save
     redirect_to tasks_url, notice: "新しいWhisperを登録しました"
   end
+  def show
+    @task = Task.find(params[:id])
+  end
 
   private
   def task_params
