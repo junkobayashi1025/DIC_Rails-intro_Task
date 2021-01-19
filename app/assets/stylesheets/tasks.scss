@@ -61,6 +61,7 @@ table{
   width: 100%;
   border-collapse: collapse;
   font-size:14px;
+  color: white;
 }
 
 table th{
@@ -78,6 +79,11 @@ table td{
     vertical-align: middle;
     padding: 16px 6%;
     border-bottom: 1px solid  #9e9e9f;
+
+}
+
+.link_to {
+  color: white;
 }
 
 .task_content{
